@@ -4,7 +4,10 @@ const title: string = "Hello, Nuxt!";
 
 <template>
   <div>
-    <h1>{{ title }}</h1>
+    <TheHeader />
+
+    <Heading :titleText="title" />
+
     <p>Sampleページです</p>
     <NuxtLink to="/about">Aboutページへ</NuxtLink>
   </div>
